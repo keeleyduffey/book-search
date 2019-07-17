@@ -1,0 +1,14 @@
+Header {
+	display: block;
+	background: black;
+	color: white;
+	text-align: center;
+	height: 300px;
+}
+
+h1 {
+	display: block;
+	font-size: 50px;
+	margin: 0 auto;
+	padding-top: 140px;
+}

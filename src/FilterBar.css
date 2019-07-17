@@ -1,0 +1,12 @@
+.filterBar {
+	display: flex;
+	margin: 0 auto;
+	padding: 20px;
+	text-align: center;
+	background: lightgray;
+}
+
+.book-type-selector {
+	display: inline-block;
+	margin: 0 auto;
+}
