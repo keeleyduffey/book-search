@@ -1,9 +1,4 @@
 import React, { Component } from 'react';
-// import './bookmarkApp.css';
-// import Header from './Header';
-// import SearchBar from './SearchBar';
-// import FilterBar from './FilterBar';
-// import ResultsList from './ResultsList';
 
 class Result extends Component {
   render() {

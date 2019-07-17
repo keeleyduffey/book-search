@@ -1,9 +1,5 @@
 import React, { Component } from 'react';
 import './FilterBar.css';
-// import Header from './Header';
-// import SearchBar from './SearchBar';
-// import FilterBar from './FilterBar';
-// import ResultsList from './ResultsList';
 
 class FilterBar extends Component {
   render() {

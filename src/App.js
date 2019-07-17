@@ -1,9 +1,8 @@
 import React, { Component } from 'react';
-// import BookSearchApp from './BookSearchApp';
-import Header from './Header';
-import SearchBar from './SearchBar';
-import FilterBar from './FilterBar';
-import ResultsList from './ResultsList';
+import Header from './Header/Header';
+import SearchBar from './SearchBar/SearchBar';
+import FilterBar from './FilterBar/FilterBar';
+import ResultsList from './ResultsList/ResultsList';
 
 class App extends Component {
   constructor(props) {

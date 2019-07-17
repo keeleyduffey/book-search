@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import './ResultsList.css';
-import Result from './Result';
+import Result from '../Result/Result';
 // { ...result }
 // description={result} title={} author={}
 class ResultsList extends Component {
