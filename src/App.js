@@ -20,6 +20,12 @@ class App extends Component {
     this.searchForTerm(searchTerm);
   }
 
+  setResults(array) {
+    this.setState({
+      results: array
+    })
+  }
+
   searchForTerm(searchTerm) {
     const key = 'AIzaSyBMMiGkxGYmxkE9MVm0PqDCAeAka2oRImA';
       
@@ -53,8 +59,12 @@ class App extends Component {
     return (
       <div className="bookSearchApp">
         <Header />
-        <SearchBar searchTerm={this.state.searchTerm} changeHandler={term => this.setSelected(term)}/>
-        <FilterBar results={this.state.results} />
+        <SearchBar 
+          searchTerm={this.state.searchTerm} 
+          changeHandler={term => this.setSelected(term)}/>
+        <FilterBar 
+          results={this.state.results}
+          changeHandler={array => this.setResults(array)} />
         {results}
         
 
